@@ -103,7 +103,23 @@ public class SendText {
                                 screen.click(typeMessage);
                                 Thread.sleep(2000);
 
-                                StringSelection message = new StringSelection("AP 10th results 2023 on 05 May 2023 4:00 PM");
+                                StringSelection message = new StringSelection("10వ తరగతి తర్వాత రెండు సంవత్సరాల కోర్సు చేసి ప్రభుత్వ ఉద్యోగం పొందగలగిన ఓకే ఒక్క కోర్సు \n" +
+                                        "Agriculture Diploma course \n" +
+                                        "\n" +
+                                        "వివరాలకు సంప్రదించండి\n" +
+                                        "\n" +
+                                        "శ్యామల కృష్ణ అగ్రికల్చర్ పాలిటెక్నిక్ - తంబల్లపల్లె,అన్నమయ్య జిల్లా( ఉమ్మడి చిత్తూరు జిల్లా). ఆచార్య ఎన్.జి.రంగ వ్యవసాయ విశ్వవిద్యాలయానికి అనుబంధ సంస్థ\n" +
+                                        "1. డిప్లొమా ఇన్ అగ్రికల్చర్-2 yrs(E.M)\n" +
+                                        "2. డిప్లొమా ఇన్ సీడ్ టెక్నాలజీ-2 yrs(E.M)\n" +
+                                        "3. డిప్లొమా ఇన్ అగ్రికల్చర్ ఇంజనీరింగ -3yrs(E.M) \n" +
+                                        "అర్హత: 10th పాస్ \n" +
+                                        "\n" +
+                                        "అడ్మిషన్ల కొరకు contact\n" +
+                                        "9804090401\n" +
+                                        "9804090402\n" +
+                                        "9804090403\n" +
+                                        "\n" +
+                                        "దరఖాస్తు కి చివరి తేది 20-06-2024");
                                 clipboard.setContents(message, null);
 
                                 robot.keyPress(KeyEvent.VK_CONTROL);
